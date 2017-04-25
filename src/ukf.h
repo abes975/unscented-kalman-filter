@@ -62,6 +62,9 @@ public:
   ///* State dimension
   int n_x_;
 
+  ///* Measurement dimesnion
+  int n_z_;
+
   ///* Augmented state dimension
   int n_aug_;
 
@@ -74,6 +77,8 @@ public:
   ///* the current NIS for laser
   double NIS_laser_;
 
+  // Used for many things...but maybe better a static class here
+  //Tools tools;
   /**
    * Constructor
    */
